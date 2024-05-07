@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Visby';
+  src: url('./VisbyCF-Regular.woff') format('woff');
+  font-weight: 400;
+  /* Add more font formats if needed */
+}
+
+@font-face {
+  font-family: 'Visby';
+  src: url('./VisbyCF-Medium.woff') format('woff');
+  font-weight: 500;
+  /* Add more font formats if needed */
+}
+
+@font-face {
+  font-family: 'Visby';
+  src: url('./VisbyCF-SemiBold.woff') format('woff');
+  font-weight: 600;
+  /* Add more font formats if needed */
+}
+@font-face {
+  font-family: 'Visby';
+  src: url('./VisbyCF-Bold.woff') format('woff');
+  font-weight: 700;
+  /* Add more font formats if needed */
+}
+
+body {
+  font-family: 'Visby';
+}
+
+.ant-form-item{
+  margin: 0 !important;
+}
+.ant-input{
+  font-family: "Visby" !important;
+}
+.ant-col label {
+  font-family: 'Visby' !important;
+  font-weight: 500 !important;
+}
+.ant-menu-item {
+  font-family: 'Visby' !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+.ant-menu-light .ant-menu-item-selected {
+  background-color: #2d669b !important;
+  color: white !important;
+  font-weight: 700 !important;
+}
+.ant-menu-submenu-title {
+  font-family: 'Visby' !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+.ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title {
+  color: black !important;
+}
