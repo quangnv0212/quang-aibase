@@ -1,7 +1,7 @@
 "use client";
 import AppProvider from "@/app-provider";
 import { CurrentUser } from "@/app/layout";
-import Logo from "@/assets/images/Logo.png";
+import Logo from "@/assets/images/logo.png";
 import { decodeJWT } from "@/lib/utils";
 
 import authApiRequest from "@/apiRequests/auth";
